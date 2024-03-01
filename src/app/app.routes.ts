@@ -12,7 +12,7 @@ export const routes: Routes = [
             },
             {
                 path: 'control-flow',
-                title: 'Control Flow',
+                title: 'Control flow',
                 loadComponent: () => import( './dashboard/pages/control-flow/control-flow.component' )
             },
             {
@@ -22,22 +22,22 @@ export const routes: Routes = [
             },
             {
                 path: 'defer-views',
-                title: 'Defer Views',
+                title: 'Defer views',
                 loadComponent: () => import( './dashboard/pages/defer-views/defer-views.component' )
             },
             {
                 path: 'user/:id',
-                title: 'User View',
+                title: 'User view',
                 loadComponent: () => import('./dashboard/pages/user/user.component')
             },
             {
                 path: 'user-list ',
-                title: 'Users List',
+                title: 'Users list',
                 loadComponent: () => import( './dashboard/pages/users/users.component' )
             },
             {
                 path: 'view-transition',
-                title: 'View Transition',
+                title: 'View transition',
                 loadComponent: () => import( './dashboard/pages/view-transition/view-transition.component' )
             },
             {
